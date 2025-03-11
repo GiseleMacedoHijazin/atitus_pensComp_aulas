@@ -87,5 +87,6 @@ pre-commit install
 
 #### Cobertura: 
 - **1°:** Despeje em uma tigela a manteiga, o chocolate em pó, o açúcar e o leite, depois misture.
--  **2°:** Leve a mistura ao fogo e continue misturando até obter uma consistência cremosa, depois despeje a calda por cima do bolo.
+-  **2°:** Leve a mistura ao fogo e continue misturando até obter uma consistência cremosa, depois despeje a calda por cima do bolo
 
+![alt text](image.png)
