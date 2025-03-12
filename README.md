@@ -11,6 +11,7 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 Estudante do 1° semestre em Ciências da Computação
 
 
+
 ## DICAS:
 
 - Entenda completamente o que o exercício solicita ANTES de começar a programar.
@@ -90,3 +91,5 @@ pre-commit install
 -  **2°:** Leve a mistura ao fogo e continue misturando até obter uma consistência cremosa, depois despeje a calda por cima do bolo
 
 ![alt text](image.png)
+
+[tabela](https://github.com/GiseleMacedoHijazin/atitus_pensComp_aulas/blob/3247498e03f70bc7fe74229df579c662eb271359/00_git/notas.md)
