@@ -14,3 +14,4 @@ assert centimetro_para_metro(1000) == 10
 assert centimetro_para_metro(0) == 0
 
 print("Terminou com sucesso!")
+teste
