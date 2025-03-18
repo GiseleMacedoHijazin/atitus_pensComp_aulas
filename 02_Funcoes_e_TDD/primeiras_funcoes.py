@@ -4,6 +4,12 @@ def numero_favorito():
 
 def subtracao(a, b):
     return a - b
+    
+def soma(a, b):
+    return a + b
+    
+def multiplicacao(a, b):
+    return a * b
 
 def ola_mundo():
     print("Olá, mundo!")
