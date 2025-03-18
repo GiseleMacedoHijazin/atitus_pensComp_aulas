@@ -2,9 +2,8 @@ def numero_favorito():
     return 42
 
 
-def soma(a, b):
-    return a + b
-
+def subtracao(a, b):
+    return a - b
 
 def ola_mundo():
     print("Olá, mundo!")
