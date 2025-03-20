@@ -21,4 +21,5 @@ def test():
     assert hipotenusa(4, 3) == 5
     assert hipotenusa(6, 8) == 10
     assert hipotenusa(5, 12) == 13
-print
+
+print(hipotenusa(4,3))
