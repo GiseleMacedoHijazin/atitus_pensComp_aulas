@@ -1,6 +1,5 @@
 def area(largura, altura):
-    # Preencher
-    pass
+    return largura * altura 
 
 
 def perimetro(largura, altura):
