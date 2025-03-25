@@ -1,6 +1,4 @@
 def eh_par(numero):
-    # Preencher
-    pass
 
 
 def eh_impar(numero):
