@@ -13,7 +13,6 @@ def proximo_bissexto(ano):
         return ano + 3
 
 def test():
-    
 assert eh_bissexto(0)
 assert eh_bissexto(2020)
 assert eh_bissexto(2024)
