@@ -11,7 +11,6 @@ def horoscopo(mes):
         return "voce e do signo de TypeScript"
 
 def test():
-
 assert horoscopo(1) == "Python"
 assert horoscopo(2) == "Python"
 
