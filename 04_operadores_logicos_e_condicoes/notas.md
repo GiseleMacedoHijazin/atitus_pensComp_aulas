@@ -1,6 +1,4 @@
-ano = 2005
-if ano % 4 == 0:
-   print('É bissexto')
-else:
-   print('Não é bissexto')
+#Solucao do Professor,
+def proximo_bissexto(ano):
+   return (ano + 3 ) // 4 * 4
  
