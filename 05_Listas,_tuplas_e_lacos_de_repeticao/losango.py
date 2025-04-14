@@ -13,5 +13,4 @@ for linha_atual in range(altura):
         num_star = altura - (linha_atual - meio) * 2
 
     print("." * num_espacos + "#" * num_star)
-    print(altura(4))
 
