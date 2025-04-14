@@ -1,6 +1,6 @@
 altura = int(input("Digite um valor ímpar para a altura do losango: "))
 if altura % 2 == 0:
-    altura == altura + 1
+    altura = altura + 1
     print("O valor digitado era par, usaremos", altura, "no lugar")
 
 meio = altura // 2
