@@ -1,5 +1,5 @@
 def raiz_quadrada(valor):
-   return valor**(1/2)
+   return valor ** (1/2)
 
    
 def test():
