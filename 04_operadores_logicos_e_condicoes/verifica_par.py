@@ -19,3 +19,6 @@ def test():
     assert eh_impar(5)
     assert not eh_impar(0)
     assert not eh_impar(2)
+    
+print(eh_par(4))
+print(eh_impar(6))
