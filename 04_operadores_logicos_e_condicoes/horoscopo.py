@@ -30,6 +30,6 @@ def test():
 print(horoscopo(2))
 print(horoscopo(-1))
 print(horoscopo(12))
-print(hosroscopo(0))
+print(horoscopo(0))
 
 
