@@ -11,18 +11,25 @@ def horoscopo(mes):
         return "voce e do signo de TypeScript"
 
 def test():
-assert horoscopo(1) == "Python"
-assert horoscopo(2) == "Python"
+    assert horoscopo(1) == "Python"
+    assert horoscopo(2) == "Python"
 
-assert horoscopo(4) == "Java"
-assert horoscopo(6) == "Java"
+    assert horoscopo(4) == "Java"
+    assert horoscopo(6) == "Java"
 
-assert horoscopo(7) == "PHP"
-assert horoscopo(9) == "PHP"
+    assert horoscopo(7) == "PHP"
+    assert horoscopo(9) == "PHP"
 
-assert horoscopo(10) == "TypeScript"
-assert horoscopo(12) == "TypeScript"
+    assert horoscopo(10) == "TypeScript"
+    assert horoscopo(12) == "TypeScript"
 
-assert horoscopo(-1) is None
-assert horoscopo(0) is None
-assert horoscopo(13) is None
+    assert horoscopo(-1) is None
+    assert horoscopo(0) is None
+    assert horoscopo(13) is None
+
+print(horoscopo(2))
+print(horoscopo(-1))
+print(horoscopo(12))
+print(hosroscopo(0))
+
+
