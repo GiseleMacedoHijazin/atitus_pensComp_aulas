@@ -7,7 +7,7 @@ def senha():
     tentativas +=1
     palpites = int(input("Digite um número de 0 a 10:"))
   print("Senha Correta! Você acertou após", tentativas, "tentativas")
-  senha()
+senha()
   
     
                    
