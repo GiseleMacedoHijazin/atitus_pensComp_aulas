@@ -51,5 +51,3 @@ def test():
     assert (
     texto_com_letra_upper("Pensamento Computacional", " ") == "Pensamento Computacional"
     )
-
-print("Todos os testes passaram!")
