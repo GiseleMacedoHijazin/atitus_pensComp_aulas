@@ -1,7 +1,7 @@
 def saudacao(nome: str, sobrenome: str = None, titulo: str = 'Sr.') -> str:
     if nome == '':
         return "Olá!"
-    is sobrenome is None:
+    if sobrenome is None:
         return f"Olá, {titulo} {nome}"
     else:
         return f "Olá, {titulo} {nome} {sobrenome}"   
