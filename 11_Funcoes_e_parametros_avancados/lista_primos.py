@@ -1,10 +1,18 @@
+def eh_primo(numero: int) -> bool:
+    if num <= 1:
+       return False
+    for i in range(2, num)
+        if num % i == 0 
+           return False
+   return True
 
     
-def lista_primos(num):
+def lista_primos(val: int) -> list:
     primos = []
-    for x in range 
-
-
+    for x in range (val + 1):
+        if eh_primo(x):
+            primos.append(x)
+    return primos
 
 assert lista_primos(10) == [2, 3, 5, 7]
 assert lista_primos(13) == [2, 3, 5, 7, 11, 13]
