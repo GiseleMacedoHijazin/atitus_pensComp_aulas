@@ -1,5 +1,10 @@
 def eh_primo(numero: int) -> bool:
-    pass
+    if num <= 1:
+       return False
+    for i in range(2, num)
+        if num % i == 0 
+           return False
+   return True
 
 
 assert not eh_primo(-1)
