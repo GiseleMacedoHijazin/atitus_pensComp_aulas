@@ -22,3 +22,5 @@ def test():
     
 print(eh_par(4))
 print(eh_impar(6))
+
+test():
