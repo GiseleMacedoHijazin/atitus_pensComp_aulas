@@ -1,16 +1,18 @@
-altura = int(input("Digite um valor ímpar para a altura do losango: "))
-if altura % 2 == 0:
-    altura = altura + 1
-    print("O valor digitado era par, usaremos", altura, "no lugar")
+def desenha_losango(altura):
+    if altura % 2 == 0:
+        altura += 1
 
-meio = altura // 2
-for linha_atual in range(altura):
-    if linha_atual <= meio:
-        num_espacos = meio - linha_atual
-        num_star = linha_atual * 2 + 1
-    else:
-        num_espacos = linha_atual - meio
-        num_star = altura - (linha_atual - meio) * 2
+    meio = altura // 2
+    linhas = []
 
-    print("." * num_espacos + "#" * num_star)
+    for linha in range(altura):
+        if linha <= meio:
+            espacos = meio - linha
+            estrelas = linha * 2 + 1
+        else:
+            espacos = linha - meio
+            estrelas = altura - (linha - meio) * 2
 
+        linhas.append(' ' * espacos + '#' * estrelas)
+
+    return linhas
