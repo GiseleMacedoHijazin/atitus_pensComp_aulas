@@ -1,11 +1,10 @@
-def somatorio(numero)
-   if numero < 0:
-      return None
+def somatorio(numero):
+    if numero < 0:
+        return None
     resultado = 0
-   for n in range (numero + 1):
-    resultado + = n
-   print(n, resultado)
-    return resultado 
+    for n in range(numero + 1):
+        resultado += n
+    return resultado
 
 def test():
     assert somatorio(-1) is None
