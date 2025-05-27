@@ -5,10 +5,10 @@ def calcular_juros_compostos(principal, taxa, tempo):
 def calcular_juros_compostos_recursivo(principal, taxa, tempo):
     if tempo == 0:
        return principal
-    return calcular_juros_compostos_recursivo(principal * (1 + taxa), taxa, tempo - 1) * taxa 
+    return calcular_juros_compostos_recursivo(principal, taxa, tempo - 1) * (1 + taxa)
 
 p = 1000 #principal
-i = 1.05 #taxa de juros 5%
+i = 0.05 #taxa de juros 5%
 t = 5 #tempo(anos)
 
 resultado = calcular_juros_compostos_recursivo(p, i, t)
