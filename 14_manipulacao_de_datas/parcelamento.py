@@ -1,7 +1,9 @@
 from datetime import date
 
 
-def parcelamento(valor, parcelas, dt_venda):
+def parcelamento(valor: int, vezes: int) -> list or None: 
+    lista_parcelas = []
+    if vezes == 0 or vezes > valor:
     pass
 
 
