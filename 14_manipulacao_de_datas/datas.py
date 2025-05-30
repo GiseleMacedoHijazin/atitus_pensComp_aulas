@@ -51,8 +51,10 @@ assert proximo_mes(date(year=2025, month=1, day=30)) == date(year=2025, month=2,
 
 # 1 se esta data está no futuro, -1 se no passado ou 0 se for hoje.
 def data_futuro(data: date) -> str:
-    pass
-
+    data_aux = str_to_date(data)
+    if data_aux is None:
+        return None
+    data_atual = 
 
 assert data_futuro(date(day=1, month=1, year=2099)) == 1
 assert data_futuro(date(day=1, month=1, year=1999)) == -1
